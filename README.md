@@ -20,3 +20,10 @@ $ git push
 ### No more username and password for every push
 ```sh
 $ git remote set-url origin github@github.com/username/yourReponame.git
+```
+### Working together from perspective of person that doesn't have the main repo
+```sh
+# fork repo you want to work on
+$ git clone https://github.com/yourUsername/yourReponame.git
+```
+
